@@ -1,2 +1,2 @@
-# lotofacilfree
+# Lotofacil-free
 Brazilian lottery
