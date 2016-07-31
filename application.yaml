@@ -1,0 +1,5 @@
+spring:
+  freemarker:
+    template-loader-path: classpath:/view/
+    settings.output_encoding: UTF-8
+    settings.number_format: 0.####

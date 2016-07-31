@@ -1,0 +1,58 @@
+body {
+	padding-top: 20px;
+}
+
+select {
+	width: 125px;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: transparent;
+}
+
+.jumbotron .btn {
+	padding: 14px 24px;
+	font-size: 21px;
+}
+
+.footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+	border-top: 1px solid #eee;
+}
+
+
+/*--------------------------------
+            SOBRE
+---------------------------------*/
+.profile-pic img {
+	border: 5px solid #F1F2F7;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	height: 200px;
+	margin: 10px 0;
+	width: 200px;
+}
+
+.jqstooltip {
+	width: 100px;
+	height: 25px !important;
+}
+
+.warningAbout {
+	margin-left:50px;
+	margin-right:50px;
+	height: 350px;
+	text-align:justify;
+	text-justify: inter-word;
+}
+
+/*--------------------------------
+        ICON SHARE
+---------------------------------*/
+
+.share-img > a {
+	padding: 10px;;
+}

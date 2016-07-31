@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+    <#import "/spring.ftl" as springftl/>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lotofácil - Loto Fácil Free - Analise, simule e monte seus jogos da Lotofácil." />
+    <meta name="author" content="Thiago Rodrigues Faria" />
+
+    <title>LotoFácilFree - Analise, simule e monte seus jogos da Lotofácil.</title>
+
+    <link rel="stylesheet" href="<@springftl.url '/css/bootstrap.min.css'/>" />
+    <link rel="stylesheet" href="<@springftl.url '/css/bootstrap-theme.min.css'/>" />
+
+    <link rel="stylesheet" href="<@springftl.url '/css/custom/lotofacilfree.css'/>" />
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1>LotoFácilFree!</h1>
+        <p class="lead">Analise, simule e monte seus jogos.</p>
+    </div>
+
+    <div class="container">
+        <div class="row text-center" >
+            <div class="profile-pic">
+                <img alt="Thiago Rodrigues Faria" src="<@springftl.url '/img/thiagorodriguesfaria.jpg'/>">
+            </div>
+            <h2>Thiago Rodrigues Faria</h2>
+            <p>thiago.r.faria@gmail.com</p>
+        </div>
+
+        <div class="row text-center" >
+            <div class="share-img">
+                <p class="lead">Compartilhe com seus amigos.</p>
+                <a class="hover" href="https://twitter.com/home?status=http%3A%2F%2Fwww.lotofacilfree.com.br%2F" target="_blank">
+                    <img alt="Compartilhe no Twitter" src="<@springftl.url '/img/twitter.png'/>" >
+                </a>
+                <a class="hover" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.lotofacilfree.com.br%2F" target="_blank">
+                    <img alt="Compartilhe no Facebook" src="<@springftl.url '/img/facebook.png'/>" >
+                </a>
+                <a class="hover" href="http://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=LotoFácilFree&amp;body=Veja isso %0A%0Ahttp://www.lotofacilfree.com.br/" target="_blank">
+                    <img alt="Compartilhe no Gmail" src="<@springftl.url '/img/gmail.png'/>" >
+                </a>
+                <a class="hover" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.lotofacilfree.com.br%2F" target="_blank">
+                    <img alt="Compartilhe no Google+" src="<@springftl.url '/img/gplus.png'/>" >
+                </a>
+            </div>
+        </div>
+
+        <div id="aviso" class="masthead top85">
+            <h3 class="text-muted">Aviso Legal!</h3>
+        </div>
+
+        <hr>
+
+        <div class="row warningAbout">
+            <p>O site Lotofacilfree assim com o seu dono o Thiago Rodrigues Faria não
+                oferece garantias de qualquer tipo (expressas, implícitas ou estatutárias)
+                com relação às informações contidas no site. O site Lotofacilfree e o
+                Thiago Rodrigues Faria não assume nenhuma responsabilidade por perdas e
+                danos (diretos ou indiretos), causados por erros ou omissões, ou resultantes da
+                utilização deste site ou das informações contidas neste site. O site Lotofacilfree e o
+                Thiago Rodrigues Faria reserva o direito de fazer qualquer tipo de analise e uso de
+                quaisquer informações aqui contidas, sem aviso prévio.</p>
+
+            <p>Os resultados dos números sorteados divulgados neste site são forneceidos pela
+                Caixa Econômica Federal ( Disponível no site <a href="http://www.caixa.gov.br" target="_blank">www.caixa.gov.br</a> ),
+                única responsável pelos sorteos.</p>
+        </div>
+
+        <!-- Site footer -->
+        <div class="footer">
+            <p>&copy; TRF - Thiago Rodrigues Faria 2016</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" charset="utf-8" src="<@springftl.url '/js/jquery-2.1.1.js'/>"></script>
+    <script type="text/javascript" charset="utf-8" src="<@springftl.url '/js/bootstrap.min.js'/>"></script>
+
+    <script type="text/javascript" charset="utf-8" src="<@springftl.url '/js/custom/lotofacilfree.js'/>"></script>
+
+    </body>
+</html>

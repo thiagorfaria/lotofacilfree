@@ -1,6 +1,7 @@
 #Gradle build
 .gradle
 build/
+/gradle/
 
 #Intellij tools
 .idea/
